@@ -1,0 +1,51 @@
+.sidebar-section {
+  display: flex;
+  background-color: black;
+}
+
+.sidebar {
+  height: 100vh;
+  background-color: #1e1e2c;
+  width: 90px;
+  position: fixed;
+}
+.sidebar-toggle {
+  width: 250px;
+}
+.sidebar-toggle-icons {
+  display: flex;
+  align-items: right;
+  justify-content: right;
+  cursor: pointer;
+}
+.sidebar-toggle-icons p svg {
+  background-color: #f29f67;
+  color: white;
+  margin-top: 10px;
+}
+
+.two-btn {
+  margin-left: 150px;
+}
+
+.hire:hover {
+  background-color: white;
+  color: black;
+  transition: 1s;
+}
+
+.cv:hover {
+  background-color: white;
+  color: black;
+  transition: 1s;
+}
+
+@media (max-width: 768px) {
+  .sidebar-section {
+    width: calc(100% - -240px);
+  }
+
+  .sidebar {
+    display: none;
+  }
+}

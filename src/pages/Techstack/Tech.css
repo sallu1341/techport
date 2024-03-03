@@ -1,0 +1,38 @@
+.techstack {
+  padding-left: 160px;
+}
+.techstack hr {
+  color: green;
+  width: 400px;
+  margin: 0 auto;
+}
+
+.techstack h2 {
+  color: green;
+}
+.cradstyle {
+  margin-left: 70px;
+  box-shadow: 5px 0px 5px #ccc;
+  transition: 0.3;
+}
+.cradstyle:hover {
+  background-color: #138781;
+}
+
+.dumm {
+  border: 2px solid red;
+}
+
+@media (max-width: 768px) {
+  .cradstyle {
+    margin-left: 0px;
+    margin-right: 30px;
+  }
+
+  .techstack h2 {
+    margin-right: 50px;
+  }
+  .techstack p {
+    margin-right: 50px;
+  }
+}
